@@ -7,14 +7,14 @@ class CustomLayoutKeys extends VirtualKeyboardLayoutKeys {
   List<List> getLanguage(int index) {
     switch (index) {
       case 1:
-        return _frenchLayout;
+        return _arabicLayout;
       default:
         return defaultEnglishLayout;
     }
   }
 }
 
-const List<List> _frenchLayout = [
+const List<List> _arabicLayout = [
   // Row 1
   const [
     '1',
